@@ -1,1 +1,1 @@
-# pepcus-ingredient
+# Pepcus Ingredient
