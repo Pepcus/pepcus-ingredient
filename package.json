@@ -1,0 +1,41 @@
+{
+  "name": "pepcus-ingredient",
+  "version": "0.0.1-1",
+  "description": "Pepcus UI Components",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "module": "lib/index.js",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production node_modules/.bin/babel --out-dir lib src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pepcus/pepcus-ingredient.git"
+  },
+  "keywords": [
+    "pepcus",
+    "ui",
+    "react",
+    "components"
+  ],
+  "author": "Pratik Kulshreshth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pepcus/pepcus-ingredient/issues"
+  },
+  "homepage": "https://github.com/Pepcus/pepcus-ingredient#readme",
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "semantic-ui-react": "0.87.1"
+  },
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "cross-env": "5.2.0"
+  }
+}
